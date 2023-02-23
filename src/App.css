@@ -1,0 +1,6 @@
+html,
+body,
+#root,
+.app_container {
+  height: 100%;
+}

@@ -26,7 +26,7 @@ function App() {
   ];
 
   return (
-    <div className="App">
+    <div className="app_container">
       <Switch>
         {list.map((r) => (
           <MyRoute key={r?.path} {...r} />
