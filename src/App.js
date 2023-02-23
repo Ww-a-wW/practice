@@ -17,11 +17,13 @@ function App() {
       path: '/',
       component: P5,
       title: 'P5',
+      exact: true,
     },
     {
-      path: '/ReactFlow',
+      path: '/reactflow',
       component: ReactFlow,
       title: 'ReactFlow',
+      exact: true,
     },
   ];
 
